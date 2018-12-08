@@ -1,0 +1,132 @@
+.bg-1{
+  background-color: rgb(36, 49, 61);
+  width:100%;
+  height:750px;
+}
+.img{
+  width: 250px;
+  height:250px;
+  margin: 20px 190px;
+  border-radius: 180px 180px;
+  background-color: #cccccc;
+}
+.btn-circle{
+  margin: 15px 70px;
+  border-color: rgb(250, 198, 130);
+  border-radius: 150px 150px;
+  width: 120px;
+}
+.btn-outline{
+  margin: 0px 10px;
+  border-radius: 150px 150px;
+  width:75px;
+  color: #fff8f8;
+}
+/*login page style*/
+.login{
+  background-color: #ffffff;
+  margin: 100px 5px;
+  width: 60%;
+  height:550px;
+}
+
+.login-title{
+  text-align: center;
+  height: 50px;
+  margin-top: 20px;
+}
+.login-title-h3{
+  color:#1f4179;
+  margin:140px 143px;
+}
+.samll{
+  width:60%;
+  height:550px;
+  margin:100px 400px;
+}
+
+/*read info style*/
+.read-info{
+  width:45%;
+  height:550px;
+  margin: 100px 510px;
+  background-color: antiquewhite;
+  border-radius: 220px 15px;
+  box-shadow: 10px 10px 5px #e2bc76;
+}
+.read-info:hover{
+  transform: scale(1.1,1.1);
+}
+.read-info-h4{
+  color:#1f4179;
+  margin:15px 115px;
+  padding-top: 50px;
+}
+.read-info-content{
+margin: 50px 110px;
+}
+.read-info-img{
+  margin: 100px 80px;
+}
+/*sub menu*/
+.main-nav{
+  margin-left: 1px;
+}
+.nav-tabs.nav-stacked > li > a {
+  margin: 0px 0px;
+  padding: 10px 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(114, 116, 117);
+  background-color: #273246;
+}
+.nav-tabs.nav-stacked > li > a > span {
+  color: rgb(115, 115, 153);
+}
+.nav-tabs.nav-stacked > li >a:hover {
+  color: rgb(116, 118, 121);
+  background: rgb(255, 255, 255);
+}
+ .nav-tabs.nav-stacked > li.active > a, .nav-tabs.nav-stacked > li > a:hover > span {
+  color: rgb(19, 19, 20);
+  }
+  .menu-second > li > a {
+    margin: 0px 9px;
+    padding: 0px 0px;
+    color: rgb(114, 116, 117);
+    background-color: #273246;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .menu-second > li > a:hover {
+    color: rgb(116, 118, 121);
+    background: rgb(255, 255, 255);
+  }
+/*menu-second 结束*/
+  /*table border*/
+  .table-border{
+    border: 2px;
+    color:#c7ae23f5;
+  }
+  .table-body{
+    border: 2px;
+    color:#d85858f5;
+  }
+  /*监考坐位表开始*/
+  .table.dataTable-ta1{
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+  .table.dataTable-ta1 thead th,
+  .table.dataTable-ta1tfoot th {
+    font-weight: bold;
+  }
+  .table.dataTable-ta1 thead th,
+  .table.dataTable-ta1 thead td {
+    padding: 40px 18px;
+    border-bottom: 1px solid #111111;
+  }
+  /*监考坐位表结束*/

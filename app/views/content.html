@@ -1,0 +1,91 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <ul id="main-nav" class="nav nav-tabs nav-stacked" style="height:600px;">
+        <li>
+          <a href="#/midTest">
+            <i class="glyphicon glyphicon-fire"></i>
+            实时监考
+          </a>
+        </li>
+        <li>
+          <a href="#/midTest">
+            <i class="glyphicon glyphicon-fire"></i>
+            期中考试
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="glyphicon glyphicon-fire"></i>
+            期末考试
+          </a>
+        </li>
+        <li data-toggle="collapse" data-target="#englishTest" aria-controls="englishTest">
+          <a href="" class="nav-header collapsed" data-toggle="collapse">
+            <i class="glyphicon glyphicon-cog"></i>
+            英语等级考试
+            <span class="pull-right glyphicon glyphicon-chevron-down"></span>
+          </a>
+          <ul id="englishTest" class="collapse menu-second">
+            <li class=""><a href="#"><i class="glyphicon glyphicon-user"></i>四级模拟</a></li>
+            <li class=""><a href="#"><i class="glyphicon glyphicon-th-list"></i>六级模拟</a></li>
+          </ul>
+        </li>
+        <li data-toggle="collapse" data-target="#computerTest" aria-controls="computerTest">
+          <a href="" class="nav-header collapsed" data-toggle="collapse">
+            <i class="glyphicon glyphicon-cog"></i>
+            计算机等级考试
+            <span class="pull-right glyphicon glyphicon-chevron-down"></span>
+          </a>
+          <ul id="computerTest" class="collapse menu-second">
+            <li class=""><a href="#"><i class="glyphicon glyphicon-user"></i>计算机二级模拟</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#/midTest">
+            <i class="glyphicon glyphicon-th-list"></i>
+            成绩管理
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="glyphicon glyphicon-user"></i>
+            个人信息
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="col-md-10">
+      <table id="example" class="display" cellspacing="0" width="100%">
+        <thead>
+          <tr>
+            <th>学生姓名</th>
+            <th>考试状态</th>
+            <th>考试类型</th>
+            <th>考试时间</th>
+            <th>操作</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="item in groupOne">
+            <td><i class="glyphicon glyphicon-print"></i>
+              {{item.name}}
+            </td>
+            <td>
+              <span class="label label-lg {{item.testStatusInfo.bg}}"> {{item.testStatusInfo.info}}</span></td>
+            <td>{{item.type}}</td>
+            <td>
+              {{item.time}}</td>
+            <td>
+              <button class="btn btn-success btn-outline" ng-click="addTime()">延时</button>
+              <button class="btn btn-warning btn-outline" ng-click="reason()">暂停</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script type="text/ng-template" id="addTime.html">
+  <p>55555555555555555555555555555555555555555555555</p></script>
